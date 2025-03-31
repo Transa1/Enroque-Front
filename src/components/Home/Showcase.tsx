@@ -1,6 +1,12 @@
 import React, { useEffect } from 'react'
 import { FaArrowRight } from 'react-icons/fa';
 import { FaArrowLeft } from 'react-icons/fa';
+import img1 from './../../../public/Home/1.avif'
+import img2 from './../../../public/Home/2.avif'
+import img3 from './../../../public/Home/3.avif'
+import img4 from './../../../public/Home/4.avif'
+import img5 from './../../../public/Home/5.avif'
+import img6 from './../../../public/Home/6.avif'
 
 const Showcase = () => {
 
@@ -9,37 +15,37 @@ const Showcase = () => {
           title: "Casa Moderna en la Ciudad",
           price: "$250,000",
           location: "Madrid, España",
-          image: "Home/1.avif"
+          image: img1
         },
         {
           title: "Apartamento con Vista al Mar",
           price: "$320,000",
           location: "Barcelona, España",
-          image: "Home/2.avif"
+          image: img2
         },
         {
           title: "Chalet en la Montaña",
           price: "$450,000",
           location: "Andorra, Pirineos",
-          image: "Home/3.avif"
+          image: img3
         },
         {
           title: "Villa de Lujo con Piscina",
           price: "$1,200,000",
           location: "Marbella, España",
-          image: "Home/4.avif"
+          image: img4
         },
         {
           title: "Loft Industrial en el Centro",
           price: "$280,000",
           location: "Valencia, España",
-          image: "Home/5.avif"
+          image: img5
         },
         {
           title: "Finca Rústica con Viñedos",
           price: "$600,000",
           location: "La Rioja, España",
-          image: "Home/6.avif"
+          image: img6
         }   
       ];
 
