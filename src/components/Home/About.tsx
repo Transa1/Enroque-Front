@@ -1,4 +1,4 @@
-import home from './../../assets/Home/About.png'
+import home from './../../../public/Home/About.png'
 
 const About = () => {
   return (
