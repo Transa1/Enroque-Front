@@ -9,7 +9,7 @@ const Navbar = () => {
         <nav className="w-full flex justify-between gap-6 relative">
           <div className="min-w-max inline-flex relative">
             <a href="/" className="relative flex items-center gap-3">
-              <img className="w-12" src="public/logo.svg" alt="Logo Enroque" />
+              <img className="w-12" src="logo.svg" alt="Logo Enroque" />
               <div className="inline-flex text-lg font-semibold text-gray-900">
                 Enroque Bienes Raíces
               </div>

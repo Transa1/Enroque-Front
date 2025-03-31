@@ -9,37 +9,37 @@ const Showcase = () => {
           title: "Casa Moderna en la Ciudad",
           price: "$250,000",
           location: "Madrid, España",
-          image: "1.avif"
+          image: "Home/1.avif"
         },
         {
           title: "Apartamento con Vista al Mar",
           price: "$320,000",
           location: "Barcelona, España",
-          image: "2.avif"
+          image: "Home/2.avif"
         },
         {
           title: "Chalet en la Montaña",
           price: "$450,000",
           location: "Andorra, Pirineos",
-          image: "3.avif"
+          image: "Home/3.avif"
         },
         {
           title: "Villa de Lujo con Piscina",
           price: "$1,200,000",
           location: "Marbella, España",
-          image: "4.avif"
+          image: "Home/4.avif"
         },
         {
           title: "Loft Industrial en el Centro",
           price: "$280,000",
           location: "Valencia, España",
-          image: "5.avif"
+          image: "Home/5.avif"
         },
         {
           title: "Finca Rústica con Viñedos",
           price: "$600,000",
           location: "La Rioja, España",
-          image: "6.avif"
+          image: "Home/6.avif"
         }   
       ];
 
