@@ -6,6 +6,7 @@ import FAQ from './FAQ/FAQ'
 import Message from './Message'
 import Reviews from './Reviews'
 import About from './About'
+import Showcase from './Showcase'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Navbar />
       <Hero />
       <About />
+      <Showcase />
       <div className="relative overflow-hidden bg-white">
         <Message />
         <Reviews />
