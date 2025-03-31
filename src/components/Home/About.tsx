@@ -1,4 +1,3 @@
-import React from 'react'
 import home from './../../assets/Home/About.png'
 
 const About = () => {
