@@ -105,7 +105,7 @@ const Showcase = () => {
             {properties.map((property, index) => (
                 <div key={index} className="relative flex-shrink-0 w-full sm:w-1/4 h-[25em] flex flex-col"> 
                 <img 
-                    src={`src/assets/Home/${property.image}`} 
+                    src={property.image} 
                     alt={property.title} 
                     className="w-full h-full object-cover mb-14" 
                 />
