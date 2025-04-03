@@ -1,12 +1,12 @@
 import React, { useEffect } from 'react'
 import { FaArrowRight } from 'react-icons/fa';
 import { FaArrowLeft } from 'react-icons/fa';
-import img1 from './../../../public/Home/1.avif'
-import img2 from './../../../public/Home/2.avif'
-import img3 from './../../../public/Home/3.avif'
-import img4 from './../../../public/Home/4.avif'
-import img5 from './../../../public/Home/5.avif'
-import img6 from './../../../public/Home/6.avif'
+import img1 from './../../../src/assets/Home/1.avif'
+import img2 from './../../../src/assets/Home/2.avif'
+import img3 from './../../../src/assets/Home/3.avif'
+import img4 from './../../../src/assets/Home/4.avif'
+import img5 from './../../../src/assets/Home/5.avif'
+import img6 from './../../../src/assets/Home/6.avif'
 
 const Showcase = () => {
 

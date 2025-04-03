@@ -24,23 +24,26 @@ const Navbar = () => {
           )}
 
           <div
-            className={`flex ${
-              isOpen
+            className={`flex ${isOpen
                 ? "visible opacity-100 translate-y-0"
                 : "invisible opacity-0 translate-y-10"
-            } lg:visible lg:opacity-100 lg:translate-y-0 lg:scale-y-100 duration-300 ease-linear flex-col gap-y-6 gap-x-4 lg:flex-row w-full lg:justify-between lg:items-center absolute lg:relative top-full lg:top-0 bg-white lg:bg-transparent border-x border-x-gray-100 lg:border-x-0`}
+              } lg:visible lg:opacity-100 lg:translate-y-0 lg:scale-y-100 duration-300 ease-linear flex-col gap-y-6 gap-x-4 lg:flex-row w-full lg:justify-between lg:items-center absolute lg:relative top-full lg:top-0 bg-white lg:bg-transparent border-x border-x-gray-100 lg:border-x-0`}
           >
             <ul className="border-t border-gray-100 lg:border-t-0 px-6 lg:px-0 pt-6 lg:pt-0 flex flex-col lg:flex-row gap-y-4 gap-x-8 text-lg text-gray-700 w-full lg:justify-center lg:items-center">
-              {["Inicio", "Nosotros", "Propiedades", "Blog"].map((item) => (
-                <li key={item}>
-                  <a
-                    href="#"
-                    className="duration-300 font-medium ease-linear hover:text-blue-600 py-3"
-                  >
-                    {item}
-                  </a>
-                </li>
-              ))}
+              {["Inicio", "Nosotros", "Propiedades", "Blog"].map((item) => {
+                const path = item === "Inicio" ? "/" : `/${item.toLowerCase()}`;
+
+                return (
+                  <li key={item}>
+                    <a
+                      href={path}
+                      className="duration-300 font-medium ease-linear hover:text-blue-600 py-3"
+                    >
+                      {item}
+                    </a>
+                  </li>
+                );
+              })}
             </ul>
 
             <div className="lg:min-w-max flex items-center sm:w-max w-full pb-6 lg:pb-0 border-b border-gray-100 lg:border-0 px-6 lg:px-0">
